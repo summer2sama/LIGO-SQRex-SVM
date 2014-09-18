@@ -3,7 +3,8 @@ LIGO-SQRex-SVM
 
 Introduction
 ============
-- LIGO-SQRex-SVM is an application based on SQRex-SVM algorithm. The goal is to find the most discriminative features of LIGO data.
+- LIGO-SQRex-SVM is an application based on SQRex-SVM algorithm.
+  The goal is to find the most discriminative features of LIGO data.
 - The SQRex-SVM algorithm is from the following paper: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4161896&tag=1. This algorithm belongs to the decompositional family of rule extraction algorithms.It utilizes the SVs only. One of its most important steps is to rank the features to obtain the most discriminative features.
 - This application use the algorithm to find a set of discriminative features and tried to get a smaller set that will get a good results of TPR and FPR on TN and TP SVs.
 - This application also use svm.cpp and svm.h from libsvm-2.16. It is available for download at http://www.csie.ntu.edu.tw/~cjlin/libsvm/.
@@ -67,7 +68,7 @@ Output
  |   955   |  1.015882  | -0.856192 | 0.293722 | 0.078856 | 3.724769  |
  +---------+------------+-----------+----------+----------+-----------+
 
-- From information above, We could see that the most discriminative features are from the 0,1,3 feature of a detecter.
+- From information above, We could see that the most discriminative features are from the 0, 1, 3 features of a detecter.
 - Information about the smaller rule set this application tried to get is as follows:
 
  +---------+------------+-----------------+
